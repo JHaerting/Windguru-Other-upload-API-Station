@@ -10,6 +10,9 @@ This script currently runs every 10min, i.e. as often as ilmatieteenlaitos.fi up
     #Enter desired time interval in minutes below
     - cron: '*/10 * * * *'
 
+To add your own stations, register a station at windguru and then create your own secrets
+WG_UID_1 and WG_PASS_1 matching the values your entered at windguru.
+
 Stations and their associated FMISIDs can be found here: https://en.ilmatieteenlaitos.fi/observation-stations
 
 Data from the stations and a map with their location can be found here: https://en.ilmatieteenlaitos.fi/download-observations
