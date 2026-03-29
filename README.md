@@ -11,6 +11,7 @@ This script currently runs every 10min, i.e. as often as ilmatieteenlaitos.fi up
     - cron: '*/10 * * * *'
 
 Stations and their associated FMISIDs can be found here: https://en.ilmatieteenlaitos.fi/observation-stations
+
 Data from the stations and a map with their location can be found here: https://en.ilmatieteenlaitos.fi/download-observations
 
 I made all of this using Gemini 3.
