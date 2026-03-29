@@ -2,7 +2,7 @@ name: FMI to Windguru Sync
 
 on:
   schedule:
-    # This runs every 10 minutes (standard cron syntax)
+    # This runs every 10 minutes (standard cron syntax). Modify as needed.
     - cron: '*/10 * * * *'
   workflow_dispatch: # This allows you to run it manually for testing
 
