@@ -11,7 +11,7 @@ This script currently runs every 10min, i.e. as often as ilmatieteenlaitos.fi up
     - cron: '*/10 * * * *'
 
 To add your own stations, register a station at windguru and then create your own secrets
-WG_UID_1 and WG_PASS_1 matching the values your entered at windguru.
+WG_UID_1 and WG_PASS_1 as well as WG_UID_2  and WG_PASS_2 matching the stations UID and API PW entered at windguru.
 
 Stations and their associated FMISIDs can be found here: https://en.ilmatieteenlaitos.fi/observation-stations
 
