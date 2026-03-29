@@ -9,6 +9,8 @@ on:
 jobs:
   run-sync:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -23,7 +25,6 @@ jobs:
 
       - name: Run Sync Script
         env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Add this line to hide the warning
           # This connects your GitHub Secrets to the Python script
           WG_UID_1: ${{ secrets.WG_UID_1 }}
           WG_PASS_1: ${{ secrets.WG_PASS_1 }}
