@@ -23,6 +23,9 @@ jobs:
 
       - name: Run Sync Script
         env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Add this line to hide the warning
+          WG_UID_1: ${{ secrets.WG_UID_1 }}
+          ...
           # This connects your GitHub Secrets to the Python script
           WG_UID_1: ${{ secrets.WG_UID_1 }}
           WG_PASS_1: ${{ secrets.WG_PASS_1 }}
