@@ -14,4 +14,6 @@ Stations and their associated FMISIDs can be found here: https://en.ilmatieteenl
 
 Data from the stations and a map with their location can be found here: https://en.ilmatieteenlaitos.fi/download-observations
 
+Some reporsitory activity, e.g. a new committ must occur every 60 days for this script to keep running.
+
 I made all of this using Gemini 3.
