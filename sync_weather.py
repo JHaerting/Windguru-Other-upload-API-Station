@@ -10,14 +10,12 @@ STATIONS = [
 ]
 
 def get_fmi_measurements(fmisid):
-    # Official FMI Parameter names: 
-    # ws_10min = Wind Speed, wd_10min = Wind Direction, t2m = Temperature
     url = "https://opendata.fmi.fi/wfs"
     params = {
         "request": "getFeature",
         "storedquery_id": "fmi::observations::weather::timevaluepair",
         "fmisid": fmisid,
-        "parameters": "ws_10min,wd_10min,t2m"
+        "parameters": "ws_10min,wg_10min,wd_10min,t2m,p_sea,rh" # Added wg, p_sea, rh
     }
     
     try:
@@ -34,13 +32,16 @@ def get_fmi_measurements(fmisid):
             
             values = member.findall('.//waterml:value', ns)
             if values:
-                # Get the last non-NaN value
                 latest_val = values[-1].text
                 if latest_val and latest_val.lower() != 'nan':
                     val = float(latest_val)
+                    # Logic to identify each parameter
                     if 'ws_10min' in param_url: data['wind_avg'] = val
+                    elif 'wg_10min' in param_url: data['wind_max'] = val
                     elif 'wd_10min' in param_url: data['wind_direction'] = val
                     elif 't2m' in param_url: data['temperature'] = val
+                    elif 'p_sea' in param_url: data['mslp'] = val # Pressure
+                    elif 'rh' in param_url: data['rh'] = val       # Humidity
         return data
     except Exception as e:
         print(f"Error for {fmisid}: {e}")
@@ -52,10 +53,15 @@ def upload_to_windguru(uid, password, data):
     auth_hash = hashlib.md5((salt + uid + password).encode()).hexdigest()
     
     wg_params = {
-        "uid": uid, "salt": salt, "hash": auth_hash,
-        "wind_avg": round(data['wind_avg'] * 1.94384, 1), # m/s to knots
+        "uid": uid, 
+        "salt": salt, 
+        "hash": auth_hash,
+        "wind_avg": round(data['wind_avg'] * 1.94384, 1),
+        "wind_max": round(data.get('wind_max', data['wind_avg']) * 1.94384, 1), # Conversion to knots
         "wind_direction": int(data.get('wind_direction', 0)),
-        "temperature": round(data.get('temperature', 0), 1)
+        "temperature": round(data.get('temperature', 0), 1),
+        "mslp": data.get('mslp'), # Mean Sea Level Pressure (hPa)
+        "rh": data.get('rh')      # Relative Humidity (%)
     }
     try:
         res = requests.get("https://www.windguru.cz/upload/api.php", params=wg_params, timeout=15)
