@@ -1,16 +1,15 @@
 name: FMI to Windguru Sync
 
 on:
-  schedule:
-    # This runs every 10 minutes (standard cron syntax). Modify as needed.
-    - cron: '*/10 * * * *'
-  workflow_dispatch: # This allows you to run it manually for testing
+  # This listens for the external "ping"
+  repository_dispatch:
+    types: [trigger-weather-sync]
+  # Keeps the "Run workflow" button in GitHub for testing
+  workflow_dispatch:
 
 jobs:
   run-sync:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -25,7 +24,7 @@ jobs:
 
       - name: Run Sync Script
         env:
-          # This connects your GitHub Secrets to the Python script
+          # Your secrets stay exactly the same
           WG_UID_1: ${{ secrets.WG_UID_1 }}
           WG_PASS_1: ${{ secrets.WG_PASS_1 }}
           WG_UID_2: ${{ secrets.WG_UID_2 }}
