@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Sync Script
         env:
-          # Your secrets stay exactly the same
+          # Add/modify your secrets here depending on the sync_weather.py file.
           WG_UID_1: ${{ secrets.WG_UID_1 }}
           WG_PASS_1: ${{ secrets.WG_PASS_1 }}
           WG_UID_2: ${{ secrets.WG_UID_2 }}
