@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 STATIONS = [ # make modifications below to add or remove weather stations.
     {"name": "Inari Kirakkajärvi", "fmisid": "102055", "wg_uid": os.environ.get('WG_UID_1'), "wg_pass": os.environ.get('WG_PASS_1')},
-    {"name": "Inari Seitalaassa", "fmisid": "129963", "wg_uid": os.environ.get('WG_UID_2'), "wg_pass": os.environ.get('WG_PASS_2')},
+    {"name": "Lake Inari", "fmisid": "129963", "wg_uid": os.environ.get('WG_UID_2'), "wg_pass": os.environ.get('WG_PASS_2')},
     {"name": "Yyteri", "fmisid": "101267", "wg_uid": os.environ.get('WG_UID_3'), "wg_pass": os.environ.get('WG_PASS_3')}
 ]
 
