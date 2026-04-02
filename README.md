@@ -17,3 +17,19 @@ The script keeps running despite the 60 day GitHub limit because it automaticall
 I made all of this using Gemini 3.
 
 ### Wind Statistics
+
+## 🌬️ Windy Days Tracker (Last 30 Days)
+> Days where wind was **>14 knots** for at least **2 hours** (08:00 - 20:00).
+
+**Inari Kirakkajärvi**:
+_No windy days tracked yet._
+
+**Inari Seitalaassa**:
+_No windy days tracked yet._
+
+**Lake Inari**:
+_No windy days tracked yet._
+
+**Yyteri**:
+_No windy days tracked yet._
+
