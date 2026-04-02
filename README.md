@@ -16,3 +16,16 @@ Some reporsitory activity, e.g. a new committ must occur every 60 days for this 
 I made all of this using Gemini 3.
 
 ### Wind Statistics
+
+## 🌬️ Windy Days Tracker (Last 30 Days)
+> Days where wind was **>14 knots** for at least **2 hours** (08:00 - 20:00).
+
+**Inari Kirakkajärvi**:
+_No windy days tracked yet._
+
+**Inari Seitalaassa**:
+_No windy days tracked yet._
+
+**Yyteri**:
+_No windy days tracked yet._
+
