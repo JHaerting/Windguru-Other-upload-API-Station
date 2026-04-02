@@ -16,4 +16,3 @@ Some reporsitory activity, e.g. a new committ must occur every 60 days for this 
 I made all of this using Gemini 3.
 
 ### Wind Statistics
-_Statistics will appear here after data collection begins._
