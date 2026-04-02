@@ -1,6 +1,6 @@
 [![FMI to Windguru Sync](https://github.com/JHaerting/Windguru-Other-upload-API-Station/actions/workflows/sync.yml/badge.svg)](https://github.com/JHaerting/Windguru-Other-upload-API-Station/actions/workflows/sync.yml)
 
-This script adds three weather stations from ilmatieteenlaitos.fi to windguru.cz via the "Other (upload API)" option when registering a station.
+This script adds three weather stations from ilmatieteenlaitos.fi to windguru.cz via the "Other (upload API)" option when registering a station. I hope to discover some kiting spots in Finland that way.
 
 This script currently runs every 10min, i.e. as often as ilmatieteenlaitos.fi updates the wind speed and direction. The script triggers via a request from cron-job.org and a personal access token to GitHub.
   
