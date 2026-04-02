@@ -29,4 +29,6 @@ jobs:
           WG_PASS_1: ${{ secrets.WG_PASS_1 }}
           WG_UID_2: ${{ secrets.WG_UID_2 }}
           WG_PASS_2: ${{ secrets.WG_PASS_2 }}
+          WG_UID_3: ${{ secrets.WG_UID_3 }}
+          WG_PASS_3: ${{ secrets.WG_PASS_3 }}
         run: python sync_weather.py
