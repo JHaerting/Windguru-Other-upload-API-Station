@@ -14,3 +14,6 @@ Data from the stations and a map with their location can be found here: https://
 Some reporsitory activity, e.g. a new committ must occur every 60 days for this script to keep running.
 
 I made all of this using Gemini 3.
+
+### Wind Statistics
+_Statistics will appear here after data collection begins._
