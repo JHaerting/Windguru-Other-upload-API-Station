@@ -5,7 +5,7 @@ This script adds three weather stations from ilmatieteenlaitos.fi to windguru.cz
 This script currently runs every 10min, i.e. as often as ilmatieteenlaitos.fi updates the wind speed and direction. The script triggers via a request from cron-job.org and a personal access token to GitHub.
   
 To add your own stations, register a station at windguru and then create your own secrets
-WG_UID_1 and WG_PASS_1 etc. matching the stations UID and API PW entered at windguru.
+WG_UID_1 and WG_PASS_1 etc. matching the stations UID and API PW entered at windguru. Modify the sync_weather.py and sync.yml accordingly.
 
 Stations and their associated FMISIDs can be found here: https://en.ilmatieteenlaitos.fi/observation-stations
 
