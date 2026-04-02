@@ -6,7 +6,7 @@ This script currently runs every 10min, i.e. as often as ilmatieteenlaitos.fi up
   
 To add your own stations, register a station at windguru and then create your own secrets
 WG_UID_1 and WG_PASS_1 etc. matching the stations UID and API PW entered at windguru. Modify the sync_weather.py and sync.yml accordingly.
-In the sync_weather.py you can find the only lines that need modifying under line 9 STATIONS.
+In the sync_weather.py you can find the only lines that need modifying under line 9 and in the sync.yml below line 29.
 
 Stations and their associated FMISIDs can be found here: https://en.ilmatieteenlaitos.fi/observation-stations
 
