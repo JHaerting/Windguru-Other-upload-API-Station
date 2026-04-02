@@ -24,9 +24,6 @@ I made all of this using Gemini 3.
 **Inari Kirakkajärvi**:
 _No windy days tracked yet._
 
-**Inari Seitalaassa**:
-_No windy days tracked yet._
-
 **Lake Inari**:
 _No windy days tracked yet._
 
