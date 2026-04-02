@@ -27,6 +27,9 @@ _No windy days tracked yet._
 **Inari Seitalaassa**:
 _No windy days tracked yet._
 
+**Lake Inari**:
+_No windy days tracked yet._
+
 **Yyteri**:
 _No windy days tracked yet._
 
