@@ -21,6 +21,9 @@ I made all of this using Gemini 3.
 ## 🌬️ Windy Days Tracker (Last 30 Days)
 > Days where wind was **>14 knots** for at least **2 hours** (08:00 - 20:00).
 
+**Hanko Tulliniemi**:
+_No windy days tracked yet._
+
 **Inari Kirakkajärvi**:
 _No windy days tracked yet._
 
