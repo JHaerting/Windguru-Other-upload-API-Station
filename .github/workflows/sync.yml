@@ -35,6 +35,8 @@ jobs:
           WG_PASS_3: ${{ secrets.WG_PASS_3 }}
           WG_UID_4: ${{ secrets.WG_UID_4 }}
           WG_PASS_4: ${{ secrets.WG_PASS_4 }}
+          WG_UID_5: ${{ secrets.WG_UID_4 }}
+          WG_PASS_5: ${{ secrets.WG_PASS_4 }}
         run: python sync_weather.py
 
       - name: Commit and Push changes
