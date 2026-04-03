@@ -10,7 +10,8 @@ STATIONS = [ # make modifications below to add or remove weather stations.
     {"name": "Inari Kirakkajärvi", "fmisid": "102055", "wg_uid": os.environ.get('WG_UID_1'), "wg_pass": os.environ.get('WG_PASS_1')},
     {"name": "Lake Inari", "fmisid": "129963", "wg_uid": os.environ.get('WG_UID_2'), "wg_pass": os.environ.get('WG_PASS_2')},
     {"name": "Yyteri", "fmisid": "101267", "wg_uid": os.environ.get('WG_UID_3'), "wg_pass": os.environ.get('WG_PASS_3')},
-    {"name": "Hanko Tulliniemi", "fmisid": "100946", "wg_uid": os.environ.get('WG_UID_4'), "wg_pass": os.environ.get('WG_PASS_4')}, # Make sure there is a comma after this line.
+    {"name": "Hanko Tulliniemi", "fmisid": "100946", "wg_uid": os.environ.get('WG_UID_4'), "wg_pass": os.environ.get('WG_PASS_4')},
+    {"name": "Kemi Ajos", "fmisid": "101846", "wg_uid": os.environ.get('WG_UID_5'), "wg_pass": os.environ.get('WG_PASS_5')}, # Make sure there is a comma after this line.
 ]
 
 LOG_FILE = "wind_history.json"
