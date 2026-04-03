@@ -27,7 +27,7 @@ _No windy days tracked yet._
 **Inari Kirakkajärvi**:
 _No windy days tracked yet._
 
-**Kallajoki Ulkokalla**:
+**Kalajoki Ulkokalla**:
 _No windy days tracked yet._
 
 **Kemi Ajos**:
