@@ -22,7 +22,7 @@ I made all of this using Gemini 3.
 > Days where wind was **>14 knots** for at least **2 hours** (08:00 - 20:00).
 
 **Hanko Tulliniemi**:
-`2026-04-04` ✅
+`2026-04-05` ✅ `2026-04-04` ✅
 
 **Inari Kirakkajärvi**:
 _No windy days tracked yet._
