@@ -28,7 +28,7 @@ I made all of this using Gemini 3.
 _No windy days tracked yet._
 
 **Kalajoki Ulkokalla**:
-_No windy days tracked yet._
+`2026-04-05` ✅
 
 **Kemi Ajos**:
 _No windy days tracked yet._
