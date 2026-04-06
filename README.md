@@ -31,7 +31,7 @@ _No windy days tracked yet._
 `2026-04-05` ✅
 
 **Kemi Ajos**:
-_No windy days tracked yet._
+`2026-04-06` ✅
 
 **Lake Inari**:
 _No windy days tracked yet._
