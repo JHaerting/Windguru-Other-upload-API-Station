@@ -28,10 +28,10 @@ I made all of this using Gemini 3.
 _No windy days tracked yet._
 
 **Kalajoki Ulkokalla**:
-`2026-04-05` ✅
+`2026-04-07` ✅ `2026-04-05` ✅
 
 **Kemi Ajos**:
-`2026-04-06` ✅
+`2026-04-07` ✅ `2026-04-06` ✅
 
 **Lake Inari**:
 `2026-04-07` ✅
