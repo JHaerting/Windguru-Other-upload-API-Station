@@ -21,6 +21,12 @@ I made all of this using Gemini 3.
 ## 🌬️ Windy Days Tracker (Last 30 Days)
 > Days where wind was **>14 knots** for at least **2 hours** (08:00 - 20:00).
 
+**Enontekiö Kilpisjärvi**:
+_No windy days tracked yet._
+
+**Enontekiö Kilpisjärvi Saana**:
+_No windy days tracked yet._
+
 **Hanko Tulliniemi**:
 `2026-10-06` ✅ `2026-10-05` ✅ `2026-10-04` ✅ `2026-10-02` ✅ `2026-09-30` ✅ `2026-09-28` ✅ `2026-09-26` ✅ `2026-09-24` ✅ `2026-09-23` ✅ `2026-09-20` ✅ `2026-09-19` ✅ `2026-09-18` ✅ `2026-09-17` ✅ `2026-09-16` ✅ `2026-09-15` ✅ `2026-09-11` ✅ `2026-09-08` ✅ `2026-09-07` ✅ `2026-09-06` ✅
 
