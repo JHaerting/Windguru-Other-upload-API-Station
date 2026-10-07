@@ -22,7 +22,7 @@ I made all of this using Gemini 3.
 > Days where wind was **>14 knots** for at least **2 hours** (08:00 - 20:00).
 
 **Enontekiö Kilpisjärvi**:
-_No windy days tracked yet._
+`2026-10-07` ✅
 
 **Enontekiö Kilpisjärvi Saana**:
 `2026-10-07` ✅ `2026-10-06` ✅
